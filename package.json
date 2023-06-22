@@ -1,0 +1,23 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "description": "simple stripe payment ",
+  "main": "main.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node-dev main.ts"
+  },
+  "author": "king",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  }
+}
